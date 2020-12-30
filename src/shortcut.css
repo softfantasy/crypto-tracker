@@ -1,0 +1,38 @@
+.shortcutitem {
+	-webkit-tap-highlight-color: transparent;
+	border-radius: 4px;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	height: var(--tile-size);
+	margin-top: 3px;
+	opacity: 1;
+	outline: none;
+	padding-bottom: 4px;
+	padding-top: 12px;
+	position: relative;
+	text-decoration: none;
+	transition-duration: 300ms;
+	transition-property: left, top;
+	transition-timing-function: ease-in-out;
+	user-select: none;
+	width: 120px;
+	margin: 0 auto;
+	margin-bottom: 13px;
+	padding-top: 25px;
+	margin-top: -25px;
+	z-index: 1;
+	height: 140px;
+}
+.shortcutCoinImage {
+	font-size: 50px;
+	border: 2px solid white;
+	border-radius: 180px;
+	/* width: 50px;
+	height: 50px;
+	padding-bottom: 5px; */
+	width: 50px;
+	height: 448px;
+	margin: 0 auto;
+	margin-top: -10%;
+}

@@ -1,0 +1,147 @@
+.top10page {
+	height: 840px;
+	width: 100vw;
+	/* background-image: url("backgrondimage.png"); */
+	background-color: rgb(0, 0, 0);
+	background-repeat: no-repeat;
+	background-size: cover;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+}
+.topcoinsTitle {
+	text-align: center;
+	font-size: 40px;
+	color: #ffb300;
+	font-weight: 500;
+	font-family: monospace;
+}
+.top10section {
+	height: fit-content;
+	width: 1000px;
+	background-color: black;
+	color: white;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 0%;
+	border: 2px solid white;
+}
+.listOfCoins {
+	/* margin-top: 7.5%; */
+	margin-top: 70px;
+}
+.listItem {
+	/* display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding-top: 4%; */
+	display: grid;
+	/* grid-template-columns: 93.3% 3.3% 3.3%; */
+	/* grid-template-rows: 1fr; */
+}
+.coinAndLogo {
+	float: left;
+	display: inline;
+	font-size: 32px;
+	margin-left: 20px;
+	margin-bottom: 40px;
+	width: fit-content;
+}
+.priceCurrent {
+	display: block;
+	font-size: 20px;
+	margin-top: 15px;
+	width: fit-content;
+	margin-left: 750px;
+}
+.percentChange24 {
+	margin-left: 240px;
+	width: fit-content;
+	font-size: 20px;
+	margin-top: -25px;
+}
+.currentPrice10 {
+	font-size: 35px;
+	margin-top: -100px;
+	float: right;
+	margin-right: 80px;
+}
+.percentChangeGreen {
+	margin-left: 190px;
+	color: lime;
+	font-size: 10px;
+
+	margin-top: -50px;
+	font-size: 20px;
+}
+.percentChangeRed {
+	position: absolute;
+	margin-left: 190px;
+	color: red;
+	font-size: 10px;
+	margin-top: -45px;
+	font-size: 20px;
+}
+.coinImage {
+	height: 3vw;
+	margin-left: 2vw;
+}
+.positiveArrow {
+	height: 20px;
+	width: 20px;
+}
+.negativeArrow {
+	height: 20px;
+	width: 20px;
+}
+@media (max-width: 1100px) {
+	.top10section {
+		/* width: 100vw; */
+		width: 70vw;
+	}
+	.listItem {
+		margin-left: -40px;
+	}
+	.topcoinsTitle {
+		font-size: 34px;
+	}
+	.coinAndLogo {
+		margin-left: 3vw;
+		font-size: 24px;
+	}
+	.percentChange24 {
+		padding-top: 8px;
+		margin-left: 10vw;
+	}
+	.percentChangeGreen {
+		font-size: 18px;
+	}
+	.percentChangeRed {
+		font-size: 18px;
+	}
+	.priceCurrent {
+		margin-left: 53vw;
+	}
+	.currentPrice10 {
+		font-size: 24px;
+		margin-top: -105px;
+		padding-top: 20px;
+	}
+}
+.coinImage {
+	height: 40px;
+	position: absolute;
+	margin-top: 3px;
+}
+@media (max-width: 780px) {
+	.percentChange24 {
+		display: none;
+	}
+	.priceCurrent {
+		margin-left: 47vw;
+	}
+	.topcoinsTitle {
+		font-size: 25px;
+		padding-top: 10px;
+	}
+}
